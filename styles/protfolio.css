@@ -64,7 +64,7 @@ nav li{
 /* main section*/
 main{
     max-width: 1140px;
-    margin: 0 auto;
+    margin:  auto;
 }
 
 /* about section styles */
@@ -77,7 +77,7 @@ main{
 
 }
 .section-title{
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 30px;
 }
 .section-description{
@@ -99,4 +99,8 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+/* what i do styles */
+.what-i-do{
+    margin-top: 130px;
 }
