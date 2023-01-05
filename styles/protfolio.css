@@ -1,5 +1,6 @@
-*{
+*,body{
     margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -12,7 +13,6 @@
     font-size: 20px;
     border: 0;
     padding: 18px 18px;
-    width: 64px;
     border-radius: 5px;
     background-color: #FD6E0A;
 }
@@ -26,7 +26,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 20px;
 }
 .nav-title{
     font-weight: 800;
@@ -73,6 +73,7 @@ main{
      background: #FFF8F3;
      border-radius: 10px;
      padding: 130px 150px;
+     text-align: center;
 
 }
 .section-title{
@@ -84,4 +85,18 @@ main{
     font-size: 18px;
     margin-bottom: 30px;
 
+}
+/* about info container  */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
